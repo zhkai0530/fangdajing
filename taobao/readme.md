@@ -16,11 +16,11 @@
    &emsp;&emsp;&emsp;&emsp;&lt;img src=""&gt;  
    &emsp;&emsp;&lt;/div&gt;
 
-  其中.lt-img就是小图，.bgbox就是鼠标移入到小图时出现的小方块，而.lg-img就是放大的图了。所以在这里要注意的就是：
+  &emsp;&emsp;其中.lt-img就是小图，.bgbox就是鼠标移入到小图时出现的小方块，而.lg-img就是放大的图了。所以在这里要注意的就是：
 
-  &emsp;&emsp;1、类名不要写错。
+  &emsp;&emsp;&emsp;&emsp;1、类名不要写错。
 
-  &emsp;&emsp;2、准备两张图，一大一小。
+  &emsp;&emsp;&emsp;&emsp;2、准备两张图，一大一小。
 
 * 第三就是，看着这个样式不顺眼的话，就自己创建一个样式表，或是直接在HTML页面里面写一个样式表，覆盖掉magnifier.css就好了。
 
