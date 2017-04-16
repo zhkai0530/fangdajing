@@ -8,14 +8,13 @@
 
 * 第二个就是HTML文件的写法，举个例子：
 
-   '
-   &lt;div class="lt-img"&gt;
-      <div class="bgbox"></div>
-      <img src="">
-   </div>
-   <div class="lg-img">
-      <img src="">
-   </div>
+   &lt;div class="lt-img"&gt;
+      &lt;div class="bgbox"&gt;&lt;/div&gt;
+      &lt;img src=""&gt;
+   &lt;/div&gt;
+   &lt;div class="lg-img"&gt;
+      &lt;img src=""&gt;
+   &lt;/div&gt;
    '
 
   其中.lt-img就是小图，.bgbox就是鼠标移入到小图时出现的小方块，而.lg-img就是放大的图了。所以在这里要注意的就是：
