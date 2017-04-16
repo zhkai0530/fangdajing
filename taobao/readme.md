@@ -15,7 +15,6 @@
    &lt;div class="lg-img"&gt;
       &lt;img src=""&gt;
    &lt;/div&gt;
-   '
 
   其中.lt-img就是小图，.bgbox就是鼠标移入到小图时出现的小方块，而.lg-img就是放大的图了。所以在这里要注意的就是：
 
