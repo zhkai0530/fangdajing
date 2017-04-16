@@ -9,7 +9,7 @@
 * 第二个就是HTML文件的写法，举个例子：
 
    '
-   <div class="lt-img">
+   &lt;div class="lt-img"&gt;
       <div class="bgbox"></div>
       <img src="">
    </div>
