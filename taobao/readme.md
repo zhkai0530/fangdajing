@@ -8,8 +8,8 @@
 
 * 第二个就是HTML文件的写法，举个例子：
 
-   &lt;div class="lt-img"&gt;
-      &lt;div class="bgbox"&gt;&lt;/div&gt;
+   &lt;div class="lt-img"&gt;&lt;br/&gt;
+     &lt;div class="bgbox"&gt;&lt;/div&gt;
       &lt;img src=""&gt;
    &lt;/div&gt;
    &lt;div class="lg-img"&gt;
