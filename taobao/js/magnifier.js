@@ -18,7 +18,7 @@ $(function(){
 			touchObj.isEvent=touchObj.isSupportTouch?"touchmove":"click";
 			return touchObj.isEvent;
 	    	}
-		console.log(hasTouch)
+		console.log(hasTouch())
 		$(".lt-img").hasTouch(function(){//鼠标移入小图触发函数
 			$(".bgbox").css("display","block")
 			$(".lg-img").css({"display":"block"})
