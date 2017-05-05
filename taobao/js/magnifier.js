@@ -9,10 +9,16 @@ $(function(){
 		$(".lg-img").css({"top":t_off});
 		$(".lt-img img").width(ltbox_width);
 		$(".lt-img img").height(ltbox_height);
-		console.log(t_off)
+		//console.log(t_off)
 		// $(".lg-img img").css({"left":lf_off+ltbox_width});
 		// $(".lg-img img").css({"top":t_off});
-		$(".lt-img").mouseover(function(){//鼠标移入小图触发函数
+		var hasTouch=function(){
+			var touchObj={};
+			touchObj.isSupportTouch = "ontouchend" in document ? true : false;
+			touchObj.isEvent=touchObj.isSupportTouch?‘touchmove‘:‘click‘;
+			return touchObj.isEvent;
+	    	}
+		$(".lt-img").hasTouch(function(){//鼠标移入小图触发函数
 			$(".bgbox").css("display","block")
 			$(".lg-img").css({"display":"block"})
 			$(".lt-img").mousemove(function(e){//鼠标移动触发函数
