@@ -15,7 +15,7 @@ $(function(){
 		var hasTouch=function(){
 			var touchObj={};
 			touchObj.isSupportTouch = "ontouchend" in document ? true : false;
-			touchObj.isEvent=touchObj.isSupportTouch?‘touchmove‘:‘click‘;
+			touchObj.isEvent=touchObj.isSupportTouch?"touchmove":"click";
 			return touchObj.isEvent;
 	    	}
 		console.log(hasTouch)
