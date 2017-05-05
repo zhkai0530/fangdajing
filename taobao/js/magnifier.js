@@ -12,14 +12,7 @@ $(function(){
 		//console.log(t_off)
 		// $(".lg-img img").css({"left":lf_off+ltbox_width});
 		// $(".lg-img img").css({"top":t_off});
-		var hasTouch=function(){
-			var touchObj={};
-			touchObj.isSupportTouch = "ontouchend" in document ? true : false;
-			touchObj.isEvent=touchObj.isSupportTouch?"touchmove":"click";
-			return touchObj.isEvent;
-	    	}
-		console.log(hasTouch())
-		$(".lt-img").bind(hasTouch(),function(){//鼠标移入小图触发函数
+		$(".lt-img").mousemove(function(){//鼠标移入小图触发函数
 			$(".bgbox").css("display","block")
 			$(".lg-img").css({"display":"block"})
 			$(".lt-img").mousemove(function(e){//鼠标移动触发函数
