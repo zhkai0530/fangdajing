@@ -19,7 +19,7 @@ $(function(){
 			return touchObj.isEvent;
 	    	}
 		console.log(hasTouch())
-		$(".lt-img").hasTouch(function(){//鼠标移入小图触发函数
+		$(".lt-img").bind(hasTouch(),function(){//鼠标移入小图触发函数
 			$(".bgbox").css("display","block")
 			$(".lg-img").css({"display":"block"})
 			$(".lt-img").mousemove(function(e){//鼠标移动触发函数
