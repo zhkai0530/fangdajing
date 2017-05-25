@@ -2,6 +2,8 @@
 
 闲来无事，看到了淘宝详情页的放大镜效果，心血来潮，做了这么一个小插件。简单测试了一下，用起来还是比较方便的。
 
+![Image text](https://github.com/zhkai0530/fangdajing/blob/master/taobao/images/fangdajing.gif)
+
 下面说一下插件的使用方法：
 
 * 首先是要引入几个文件，分别是JQuery文件、magnifier.css文件和magnifier.js文件。
