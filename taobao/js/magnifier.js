@@ -17,8 +17,8 @@ $(function(){
 			$(".lg-img").css({"display":"block"})
 			$(".lt-img").mousemove(function(e){//鼠标移动触发函数
 				e = e || window.event;
-				mouseX = e.clientX || screenX;//鼠标X轴位置
-				mouseY = e.clientY || screenY;//鼠标Y轴位置
+				mouseX = e.clientX;//鼠标X轴位置
+				mouseY = e.clientY;//鼠标Y轴位置
 				$(".bgbox").css({"left":mouseX-(bgbox_width/2)-lf_off+"px","top":mouseY-(bgbox_height/2)-t_off+"px"});
 				if(mouseX>=ltbox_width-(bgbox_width/2)+lf_off){
 					$(".bgbox").css({"left":ltbox_width-bgbox_width+"px"});
