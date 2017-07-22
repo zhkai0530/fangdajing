@@ -9,9 +9,6 @@ $(function(){
 		$(".lg-img").css({"top":t_off});
 		$(".lt-img img").width(ltbox_width);
 		$(".lt-img img").height(ltbox_height);
-		//console.log(t_off)
-		// $(".lg-img img").css({"left":lf_off+ltbox_width});
-		// $(".lg-img img").css({"top":t_off});
 		$(".lt-img").mousemove(function(){//鼠标移入小图触发函数
 			$(".bgbox").css("display","block")
 			$(".lg-img").css({"display":"block"})
